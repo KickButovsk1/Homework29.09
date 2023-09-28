@@ -14,8 +14,8 @@ namespace BoolProject
 
 
             string str = "Это тест";
-            string s2 = "это простой тест";
-            s2 = str.Replace(str, s2);
+            string s2 = " простой ";
+            s2 = str.Insert(3 ,s2);
             Console.WriteLine(s2);
             Console.ReadKey();
 
