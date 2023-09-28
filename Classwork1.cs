@@ -31,14 +31,15 @@ namespace BoolProject
             int number = Math.Min(i5, i6);
             int number1 = Math.Min(i6, i7);
             int number3 = Math.Min(number, number1);
-            Console.WriteLine(i);
-            Console.WriteLine(i2);
-            Console.WriteLine(i3);
-            Console.WriteLine(i4);
-            Console.WriteLine(number3);
+            Console.WriteLine("Индекс первого вхождения символа 'о': "+i);
+            Console.WriteLine("Индекс последнего вхождения символа 'о' : "+i2);
+            Console.WriteLine("Индекс первого вхождения подстроки 'ми' : " + i3);
+            Console.WriteLine("Индекс последнего вхождения подстроки 'ми' : " + i4);
+            Console.WriteLine("Индекс первого вхождения символов 'а' , 'б' или 'в' : " + number3);
             Console.WriteLine(x);
             Console.WriteLine(y);
             Console.ReadKey();
+        }
 
         }
     }
